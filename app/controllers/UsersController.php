@@ -1,5 +1,7 @@
 <?php
 
+use App\Libraries\Controller;
+
 class UsersController extends Controller
 {
     public function __construct()

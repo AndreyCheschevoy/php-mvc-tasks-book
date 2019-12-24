@@ -1,4 +1,6 @@
 <?php
+namespace App\Libraries;
+
   /*
    * PDO Database Class
    * Connect to database
@@ -6,6 +8,9 @@
    * Bind values
    * Return rows and results
    */
+
+  use PDO;
+
   class Db {
     private $host = DB_HOST;
     private $user = DB_USER;

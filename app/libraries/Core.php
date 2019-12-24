@@ -1,4 +1,5 @@
 <?php
+namespace App\Libraries;
   /*
    * App Core Class
    * Creates URL & loads core controller

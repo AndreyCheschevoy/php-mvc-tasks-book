@@ -1,9 +1,12 @@
 <?php
 
+use App\Libraries\Controller;
+
 class IndexController extends Controller
 {
     public function __construct()
     {
+
         $this->taskModel = $this->model('Task');
     }
 

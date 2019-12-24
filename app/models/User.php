@@ -1,5 +1,7 @@
 <?php
 
+use App\Libraries\Db;
+
 class User
 {
     // TEST CLASS

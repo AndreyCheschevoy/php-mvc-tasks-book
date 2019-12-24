@@ -7,5 +7,6 @@ require_once 'helpers/session_helper.php';
 
 // Autoload Core Libraries
 spl_autoload_register(function ($className) {
-    require_once 'libraries/' . $className . '.php';
+    $file = explode('\\', $className);
+    require_once 'libraries/' . $file[2] . '.php';
 });

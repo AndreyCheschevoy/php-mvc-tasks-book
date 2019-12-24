@@ -7,7 +7,7 @@ class Task
 
     public function __construct()
     {
-        $this->db = new Db;
+        $this->db = new App\Libraries\Db;
     }
 
     public function countTasks($records)
